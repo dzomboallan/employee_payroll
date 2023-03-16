@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "704961505516",
+    "project_id": "automated-payroll-832de",
+    "storage_bucket": "automated-payroll-832de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704961505516:android:88847ab41d4fbdf65bddc9",
+        "android_client_info": {
+          "package_name": "com.example.automatedpayrollwithimagecaptureandgpstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704961505516-taf3dgr7ilk6ut4ook4um15g7a877g8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdUT86-8K1GcHQuECVAT2Os2CUJ9MRuh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704961505516-taf3dgr7ilk6ut4ook4um15g7a877g8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
