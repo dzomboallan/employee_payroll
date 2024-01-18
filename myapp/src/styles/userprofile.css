@@ -1,0 +1,94 @@
+.user-profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-profile-header-right {
+    position: relative;
+  }
+  
+  .user-profile-header-image {
+    border-radius: 50%;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown button {
+    background-color: #1e4a85;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .user-profile-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user-profile-body-left {
+    margin-right: 20px;
+  }
+  
+  .user-profile-body-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .user-profile-body-right {
+    width: 60%;
+  }
+  
+  .user-profile-body-right h3 {
+    margin-top: 0;
+  }
+
+  .password-change{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
